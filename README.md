@@ -1,24 +1,13 @@
-# README
+# 環境構築
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. このリポジトリを clone  
+   `https://github.com/KanaeMurakami/slack-rails-example.git`
+2. clone したディレクトリに移動  
+   `cd slack-rails-example`
 
-Things you may want to cover:
+3. gem をインストール  
+   `bundle install`  
+   (もしくは `bundle install --path vendor/bundle`)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. アプリケーションの起動確認  
+   `bin/rails s`
